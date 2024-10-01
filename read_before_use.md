@@ -1,21 +1,8 @@
-# RSA algorithm :
-RSA is  asymmetric cryptography algorithm. Asymmetric actually means that it works on two different keys i.e. Public Key and Private Key. As the name describes that the Public Key is given to everyone and Private key is kept private.
+#this chat is an encryped chat working with rsa encryption algorithm
 
-An example of asymmetric cryptography :
+## To activate the chat run the server first of all enter the server name in the workspace, now put localHost ip for exemple (127.0.0.1) and a port
 
-A client (for example browser) sends its public key to the server and requests for some data.
-The server encrypts the data using client’s public key and sends the encrypted data.
-Client receives this data and decrypts it
 
-### To Run The porgram First Run The server and open a port for connection
+ ### now run the client enter the name of the client in the workspace and then server ip- in the exemple case 127.0.0.1 and the common port
 
-``` 
-python3 server.py
-```
- ### Now Run The client Script and connect to the host server
-``` 
-python3 client.py
-```
-![server](gui1.png)
-![client](gui2.png)
 
